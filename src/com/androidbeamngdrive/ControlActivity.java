@@ -71,7 +71,7 @@ public class ControlActivity extends Activity implements SensorEventListener {
 			this.tvThrottleZY = (TextView) findViewById(R.id.tvThrottleZY);
 		}
 		double steer = Math.round(Math.toDegrees(OrientationData[1])) * 0.01;
-		double throttle = (Math.round(Math.toDegrees(OrientationData[2]) + 87) * 0.01);
+		double throttle = Math.round(Math.toDegrees(OrientationData[2]) + 87) * 0.01;
 
 		this.tvSteerXZ.setText(String.valueOf(steer));
 		this.tvThrottleZY.setText(String.valueOf(throttle));
