@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:text="0 (ZY)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+
     </LinearLayout>
 
 </LinearLayout>
